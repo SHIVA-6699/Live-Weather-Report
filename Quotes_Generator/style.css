@@ -1,0 +1,56 @@
+.container
+{
+    width: 50rem;
+    height: 8rem;
+   
+    position: absolute;
+    inset: 0;
+    top:5rem;
+    margin: 0 auto;
+    border: 1px solid purple; 
+    filter: drop-shadow(0 0 2px #9d1b9d);
+    border-radius:1rem;
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    color: #000000;
+}
+button
+{
+    padding: .8rem;
+    border-radius: 1rem;
+    width: 6rem;
+    background-color: rgb(10, 10, 224);
+    color:#ffff;
+    border:1px solid #000000;
+ 
+}
+.btn1
+{
+    position: relative;
+    top:13rem;
+    left:23rem;
+}
+.btn2
+{
+    position: relative;
+    top:13rem;
+    left:59rem;
+}
+button:hover
+{
+    filter: drop-shadow(0 0 4px #072bdc);
+}
+h1
+{
+    text-align: center;
+
+}
+.text
+{
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+     text-decoration:black;
+
+}
